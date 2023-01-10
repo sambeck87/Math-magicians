@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
-// eslint-disable-next-line
-class Calc extends React.Component {
+
+class Calc extends React.PureComponent {
   render() {
     return (
       <div>
