@@ -1,6 +1,7 @@
 import '../App.css';
 import React from 'react';
 import calculate from '../logic/calculate';
+import Displayer from './Displayer';
 
 class Calc extends React.PureComponent {
   constructor() {
@@ -22,11 +23,7 @@ class Calc extends React.PureComponent {
     const { total, next, operation } = this.state;
     return (
       <>
-        <div id="screen" type="number">
-          {total}
-          {operation}
-          {next}
-        </div>
+        <Displayer total={total} next={next} operation={operation} />
         <button className="smallButton" id="clear" type="button" onClick={this.clickHandler}>AC</button>
         <button className="smallButton" id="negative" type="button" onClick={this.clickHandler}>+/-</button>
         <button className="smallButton" id="percent" type="button" onClick={this.clickHandler}>%</button>
