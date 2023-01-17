@@ -1,26 +1,36 @@
-#screen {
-  width: 100%;
-  background-color: grey;
-  color: rgb(255, 255, 255);
-  height: 20vh;
-  font-size: 70px;
+#head_contain {
+  background-color: rgb(89, 189, 255);
   display: flex;
-  justify-content: right;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  padding: 1vw 0 1vw 0;
 }
 
-.smallButton {
+#title {
+  padding: 0;
+  margin: 0 0 0 2vw;
+  font-size: 3vw;
+}
+
+#links_container {
   width: 25%;
-  height: 16vh;
-  font-size: 35px;
 }
 
-#zero {
-  width: 50%;
-  height: 16vh;
-  font-size: 35px;
+#links {
+  margin: 0 2vw 0 0;
+  font-size: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
 }
 
-.operators {
-  background-color: rgb(252, 173, 120);
+#links a {
+  text-decoration: none;
+}
+
+.active-link {
+  font-weight: 600;
+  color: orange;
 }

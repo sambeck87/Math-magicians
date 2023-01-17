@@ -1,0 +1,47 @@
+#calc_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url('https://educacion30.b-cdn.net/wp-content/uploads/2021/02/mtematicas-978x652.png');
+  background-size: contain;
+}
+
+#calculator {
+  width: 50%;
+  margin: 3vw 3vw 0 0;
+}
+
+#lets {
+  margin: 3vw 0 0 3vw;
+  font-size: 4vw;
+  color: rgb(0, 174, 255);
+  text-shadow: rgb(255, 255, 255) 0 0 30px;
+}
+
+#screen {
+  width: 100%;
+  background-color: grey;
+  color: rgb(255, 255, 255);
+  height: 20vh;
+  font-size: 70px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.smallButton {
+  width: 25%;
+  height: 11vh;
+  font-size: 35px;
+}
+
+#zero {
+  width: 50%;
+  height: 11vh;
+  font-size: 35px;
+}
+
+.operators {
+  background-color: rgb(252, 173, 120);
+}
