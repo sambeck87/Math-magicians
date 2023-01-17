@@ -1,0 +1,18 @@
+#quote_container {
+  height: 100vh;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/77/William_Thurston.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#quote {
+  width: 65%;
+  margin-top: 35vh;
+  font-size: 2vw;
+  text-align: center;
+  color: antiquewhite;
+}
