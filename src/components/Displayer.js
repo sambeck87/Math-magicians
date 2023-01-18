@@ -5,7 +5,7 @@ const Displayer = (props) => {
 
   return (
     <>
-      <div id="screen" data type="number" data-testid="result">
+      <div id="screen" type="number" data-testid="result">
         {total}
         {operation}
         {next}
@@ -16,8 +16,14 @@ const Displayer = (props) => {
 
 export default Displayer;
 
+Displayer.defaultProps = {
+  total: null,
+  next: null,
+  operation: null,
+};
+
 Displayer.propTypes = {
-  total: PropTypes.string.isRequired,
-  next: PropTypes.string.isRequired,
-  operation: PropTypes.string.isRequired,
+  total: PropTypes.oneOfType([PropTypes.string, PropTypes.oneOf([null])]),
+  next: PropTypes.oneOfType([PropTypes.string, PropTypes.oneOf([null])]),
+  operation: PropTypes.oneOfType([PropTypes.string, PropTypes.oneOf([null])]),
 };
