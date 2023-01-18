@@ -5,7 +5,7 @@ const Displayer = (props) => {
 
   return (
     <>
-      <div id="screen" data type="number">
+      <div id="screen" data type="number" data-testid="result">
         {total}
         {operation}
         {next}
