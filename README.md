@@ -61,7 +61,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link pending..](https://sambeck87.github.io/group-capstone-project/)
+- [Live Demo Link](https://calculator2-l3ix.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
